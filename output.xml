@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190807 13:38:22.068" generator="Robot 3.1.2 (Python 3.5.2 on linux)" rpa="false">
+<suite name="User Defined Keyword" source="/home/raju/prog/python_prog_24_05_2018/user_defined_keyword.robot" id="s1">
+<test name="TC_002 Browser to insert the element in login page" id="s1-t1">
+<kw name="Open Browser">
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190807 13:38:22.099" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status endtime="20190807 13:38:22.099" starttime="20190807 13:38:22.099" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20190807 13:38:22.099" starttime="20190807 13:38:22.097" status="FAIL">No keyword with name 'Open Browser' found.</status>
+</test>
+<status endtime="20190807 13:38:22.099" starttime="20190807 13:38:22.069" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat id="s1" name="User Defined Keyword" fail="1" pass="0">User Defined Keyword</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190807 13:38:22.096" level="ERROR">Error in file '/home/raju/prog/python_prog_24_05_2018/user_defined_keyword.robot': Importing test library 'SeleniumLibrary' failed: ImportError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/raju/.local/bin
+  /usr/lib/python35.zip
+  /usr/lib/python3.5
+  /usr/lib/python3.5/plat-x86_64-linux-gnu
+  /usr/lib/python3.5/lib-dynload
+  /home/raju/.local/lib/python3.5/site-packages
+  /usr/local/lib/python3.5/dist-packages
+  /usr/lib/python3/dist-packages</msg>
+</errors>
+</robot>
